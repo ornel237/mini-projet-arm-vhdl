@@ -74,45 +74,8 @@ Voir le fichier `LICENSE` pour plus d'informations.
 La publication de ce mini-projet sur GitHub permet non seulement de partager le code, mais aussi d’appliquer des pratiques professionnelles liées aux dépôts publics.  
 Cette section présente différentes stratégies de publication, les responsabilités associées et la manière dont il faut réagir en cas de dysfonctionnement du code.
 
----
 
-### 6.1 Stratégies possibles de publication du code
-
-Il existe plusieurs façons d’organiser un dépôt GitHub :
-
-- **Une seule branche principale publique**  
-  Toute modification est poussée directement dans la branche principale.  
-  C’est simple, mais cela rend l’historique plus difficile à analyser et manque d’isolation pour les tests.
-
-- **Branches de développement + versions stables (releases)**  
-  Les nouvelles fonctionnalités et modifications sont d’abord développées dans des branches dédiées, puis fusionnées quand elles sont stables.  
-  Des versions taguées (*releases*), telles que `v1.0`, peuvent ensuite être créées pour partager une version précise du projet.
-
-Dans ce projet, nous avons choisi une approche simple avec deux branches :
-- **`src`** : regroupe les fichiers VHDL synthétisables (design du processeur).  
-- **`sim`** : regroupe les bancs de test et les fichiers associés aux simulations.
-
-Cette séparation permet de clarifier ce qui fait partie du processeur et ce qui sert uniquement aux tests dans Vivado.
-
----
-
-### 6.2 Responsabilités liées à la publication du code sur GitHub
-
-La publication du projet impose plusieurs responsabilités importantes :
-
-- Indiquer clairement qu’il s’agit d’un **projet académique**, non destiné à un usage industriel.
-- Fournir le code **“tel quel” (as is)**, c’est-à-dire sans garantie d’exactitude, de performance ou de sécurité.
-- Documenter les **fonctionnalités réellement implémentées et testées**, par exemple :
-  - instructions supportées,
-  - bancs de test disponibles : `tb_cmp_check`, `tb_shifted_check`, `tb_top`.
-- Être honnête concernant les **limites**, les **comportements non implémentés**, ou les **modules non testés**.
-- Respecter la licence MIT et les licences externes lors de réutilisation de code.
-
-Ces responsabilités garantissent la transparence et aident les utilisateurs à comprendre la portée réelle du projet.
-
----
-
-### 6.3 Gestion des bugs et dysfonctionnements (workflow de correction)
+### 6.1 Gestion des bugs et dysfonctionnements (workflow de correction)
 
 Lorsqu’un bug est découvert, il existe une procédure standard professionnelle à suivre :
 
