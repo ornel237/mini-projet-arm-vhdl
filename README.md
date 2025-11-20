@@ -101,52 +101,21 @@ Lorsqu’un bug est découvert, il existe une procédure standard professionnell
    - documenter le correctif dans le message de commit ou dans un changelog léger.
 
 
-### 6.2 Responsabilités concernant la publication du code source**
+### 6.2 Justification du choix d’une licence open source**
 
-La publication de ce projet sur GitHub implique plusieurs responsabilités importantes afin d’assurer la qualité, la transparence et la sécurité du code diffusé. En tant que créateurs et mainteneurs du projet, nous devons :
-
-* **Garantir la clarté du statut du projet**
-  Préciser qu’il s’agit d’un projet académique réalisé dans le cadre d’un cours, et non d’un processeur destiné à un usage industriel.
-  Le code est fourni *« tel quel »* (**as is**), sans garantie de performance, de sécurité ou de compatibilité.
-
-* **Assurer une documentation suffisante**
-  Le dépôt doit inclure un README clair, une organisation compréhensible (branches `src` et `sim`), et des explications sur les éléments testés par les bancs de test (`tb_cmp_check`, `tb_shifted_check`, etc.).
-
-* **Maintenir la qualité du code publié**
-  Les fichiers déposés doivent être lisibles, correctement organisés et ne pas contenir d’informations sensibles ou privées.
-
-* **Assurer une gestion responsable des bugs**
-  En cas de problème, un système d’issues doit être utilisé pour :
-
-  * signaler les dysfonctionnements,
-  * décrire les étapes de reproduction,
-  * suivre les correctifs et les évolutions.
-
-  Les correctifs doivent idéalement être développés dans des branches dédiées (`bugfix/*`) puis fusionnés après validation.
-
-* **Respecter la licence et les droits d’auteurs**
-  Toute réutilisation de code externe doit être compatible avec la licence du projet, et les sources doivent être citées correctement.
-
-En résumé, publier du code sur GitHub ne consiste pas seulement à déposer des fichiers : cela implique une responsabilité envers les utilisateurs, la transparence des limites du projet et une gestion minimale de la maintenance.
-
----
-
-### 6.3 Justification du choix d’une licence open source**
-
-Le projet est distribué sous la licence **MIT**, une licence open source permissive très utilisée dans les projets éducatifs et de recherche. Ce choix est justifié par plusieurs raisons :
+Le projet est distribué sous la licence **MIT**, pour plusieurs raisons :
 
 * **Grande liberté d’utilisation**
-  La licence MIT autorise tout utilisateur à copier, modifier, redistribuer ou intégrer le code dans d’autres projets, y compris commerciaux. Cette liberté facilite la réutilisation du travail dans un contexte pédagogique ou pour d’autres projets d’étudiants.
+  La licence MIT autorise tout utilisateur à copier, modifier, redistribuer ou intégrer le code dans d’autres projets, y compris commerciaux.
 
 * **Simplicité et lisibilité**
-  Contrairement à des licences plus complexes (comme GPL ou Apache), la MIT est courte, facile à comprendre et ne impose pas de contraintes lourdes aux utilisateurs.
+   facile à comprendre et ne impose pas de contraintes lourdes aux utilisateurs.
 
 * **Protection juridique des auteurs**
-  La licence précise clairement que le code est fourni sans garantie (« as is »).
   Cela protège les auteurs contre toute responsabilité liée à des erreurs, mauvaises utilisations ou incompatibilités du code.
 
 * **Encouragement à la collaboration**
-  Grâce à son caractère permissif, la licence MIT permet à d’autres développeurs ou étudiants d’améliorer librement le code et de contribuer sans contrainte.
+ la licence MIT permet à d’autres développeurs ou étudiants d’améliorer librement le code et de contribuer sans contrainte.
 
 
 
