@@ -100,10 +100,6 @@ Lorsqu’un bug est découvert, il existe une procédure standard professionnell
    - fermer l’issue GitHub liée,  
    - documenter le correctif dans le message de commit ou dans un changelog léger.
 
-Voici les **deux sections propres, claires et prêtes à coller** dans ton `README.md`.
-J’ai écrit ça en style professionnel, parfaitement adapté à un dépôt GitHub académique.
-
----
 
 ### 6.2 Responsabilités concernant la publication du code source**
 
