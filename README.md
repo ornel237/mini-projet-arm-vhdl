@@ -117,7 +117,7 @@ Le projet est distribué sous la licence **MIT**, pour plusieurs raisons :
 * **Encouragement à la collaboration**
  la licence MIT permet à d’autres développeurs ou étudiants d’améliorer librement le code et de contribuer sans contrainte.
 
-### 6.3 Responsabilités concernant la publication du code source**
+### 6.3 Responsabilités concernant la publication du code source
 
 La publication de ce projet sur GitHub implique plusieurs responsabilités importantes pour garantir la qualité, la sécurité et l’utilisation correcte du code. En tant que mainteneur et contributeur, les points suivants doivent être respectés :
 
@@ -131,13 +131,13 @@ Qualité du code
 
 Toute contribution doit respecter les bonnes pratiques de développement :
 
-code clair, lisible et cohérent,
+.code clair, lisible et cohérent,
 
-documentation suffisante pour faciliter la compréhension,
+.documentation suffisante pour faciliter la compréhension,
 
-présence de tests unitaires lorsque nécessaire,
+.présence de tests unitaires lorsque nécessaire,
 
-absence de vulnérabilités ou de mauvaises pratiques de sécurité.
+.absence de vulnérabilités ou de mauvaises pratiques de sécurité.
 
 Avant de soumettre une pull request, il est essentiel de vérifier que le code suit ces standards et ne casse rien dans le projet existant.
 
@@ -146,27 +146,27 @@ Sécurité et confidentialité
 Aucune information sensible ne doit apparaître dans le dépôt.
 Cela inclut notamment :
 
-mots de passe,
+.mots de passe,
 
-clés API,
+.clés API,
 
-données privées ou confidentielles,
+.données privées ou confidentielles,
 
-informations d'identification ou fichiers générés automatiquement.
+.informations d'identification ou fichiers générés automatiquement.
 
-Tout élément sensible doit être exclu des commits grâce à un fichier .gitignore approprié.
+.Tout élément sensible doit être exclu des commits grâce à un fichier .gitignore approprié.
 
 Mises à jour et maintenance
 
 Les contributeurs doivent :
 
-maintenir une compatibilité avec les versions récentes des dépendances et outils utilisés,
+.maintenir une compatibilité avec les versions récentes des dépendances et outils utilisés,
 
-corriger rapidement les bugs signalés,
+.corriger rapidement les bugs signalés,
 
-améliorer la performance ou la clarté du code si nécessaire,
+.améliorer la performance ou la clarté du code si nécessaire,
 
-ajouter des fonctionnalités de manière structurée et documentée.
+.ajouter des fonctionnalités de manière structurée et documentée.
 
 
 
